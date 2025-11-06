@@ -12,9 +12,6 @@ main {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
-  gap: 10em;
-  padding: 2em 8em;
 }
 
 .main-section {
@@ -22,7 +19,9 @@ main {
   flex-direction: column;
   flex: 2;
   gap: 40px;
+  min-width: 450px;
   max-width: 880px;
+  padding: 10em 10em;
 }
 
 /* Projects section */
@@ -72,7 +71,6 @@ aside {
   align-items: center;
   flex: 1;
   background-color: #1e2939;
-  height: 100vh;
   max-width: 354px;
 }
 
