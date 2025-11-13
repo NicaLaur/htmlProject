@@ -71,7 +71,7 @@ aside {
   align-items: center;
   flex: 1;
   background-color: #1e2939;
-  max-width: 354px;
+  max-width: 24em;
 }
 
 aside .photo {
